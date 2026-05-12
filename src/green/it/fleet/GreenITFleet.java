@@ -5,6 +5,8 @@
  */
 package green.it.fleet;
 
+import java.util.Set;
+
 /**
  *
  * @author MCHAUMES
@@ -28,6 +30,7 @@ public class GreenITFleet {
         // Simulation d'une location
         v1.setEstLoue(true);
         v1.setNiveauBatterie(45);
+        
         
         maStation.afficherEtatStation();
     }
